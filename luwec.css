@@ -1,0 +1,17 @@
+  @font-face{
+   FONT-FAMILY: thefontofluwec;
+   src: url("FT88-Regular.ttf");
+  }
+  h2{
+  font-family: thefontofluwec; 
+  color:blue;
+  }
+  h1{
+  font-size: 22pt;
+  font-weight: 177;
+      
+}
+h3{
+font-style: italic;
+    
+}
