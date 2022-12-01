@@ -18,18 +18,40 @@ font-style: italic;
 h4{
  text-decoration: underline;   
 }
+  h5{
+  font-family: thefontofluwec; 
+  color:blue;
+  }
+  
+  h6{
+   text-transform: capitalize;   
+   border: 2px dotted green;
+  }
+
 body{
  font-family: Arial, "sans-serif";
  background-image: url("TaxCollector.png");
   /* Full height */
   height: 100%;
 
-  /* Center and scale the image nicely */
+   /*Center and scale the image nicely*/
   background-position: center;
   background-repeat: repeat;
   background-size: cover;
 }
 
 p{
+    word-spacing: 
+    0.7em;
+letter-spacing: 7.0em; 
  font-family: thefontofluwec;   
 }
+
+.lustigeklasse{background-color: #DD5678;}
+
+ table{
+border: 4px solid black;
+border-collapse: collapse;
+ }
+th{text-decoration: underline; text-decoration-color: yellow;}
+td{border:  2px dashed #FF3488;}
