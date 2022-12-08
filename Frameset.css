@@ -1,0 +1,13 @@
+#navigationsbereich{
+	padding: 5pt;
+	float: left;
+	width: 100px;
+	height: 100pt;
+}
+#hauptbereich{
+	padding: 5pt;
+	float: left;
+	width: 1500px;
+	height: 100pt;
+	margin-left: 105px;
+}
