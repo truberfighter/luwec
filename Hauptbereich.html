@@ -14,11 +14,15 @@
   
   
   <!---->
-<body >
-<script type = "text/javascript" language = "javascript" >
-window.addEventListener("onMousemove",function{showRightImage(var x = mouseEvent.clientX; var y =mouseEvent.clientY;(0,100,300,500,document.imageForTheWin,x,y);return true; backgroundImage = "varphi.png";}
-function showRightImage( xLowBound, xUpBound, yLowBound, yUpBound,  what,  x,  y){
-    if(x<=xLowBound&&x>=xUpBound&&y<=yLowBound&&y>=yUpBound){
+<body>
+
+<div onMouseMove = "var x = event.clientX; var y =event.clientY;
+showRightImage(0,100,300,500,document.imageForTheWin,event);return true;">
+
+<script>
+function showRightImage( xLowBound, xUpBound, yLowBound, yUpBound,  what, event){
+var x = event.clientX; var y = event.clientY;
+    if((x>=xLowBound&&x<=xUpBound&&y>=yLowBound&&y<=yUpBound)){
         what.src="TaxCollector.png";
     }
     else{
@@ -27,14 +31,25 @@ function showRightImage( xLowBound, xUpBound, yLowBound, yUpBound,  what,  x,  y
     return true;
 }
 </script>
+
+
+
+
+
+
+
+
+
+
+
 Hauptbereich<br>
 <a onClick="return false;" onMouseOut = "document.kevinImage.src = 'varphi.jpg'; return true;" onMouseOver = 
 "document.kevinImage.src='frak-A.jpg'; return true;">
 <img src = "varphi.jpg" name = "kevinImage" height = 300 width = 300 alt = "Vögel dich ins Knie"> 
 </a><br>
 
-<img src = "TaxCollector.png" alt = "Piep piep piieep, ich hab euch lieb!" height = 200 width = 100 name = "imageForTheWin">
-
+<img src = "frak-A.jpg" alt = "Piep piep piieep, ich hab euch lieb!" height = 200 width = 100 name = "imageForTheWin">
+</div>
 
 </body>
 </html>
