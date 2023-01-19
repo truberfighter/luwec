@@ -55,3 +55,9 @@ border-collapse: collapse;
  }
 th{text-decoration: underline; text-decoration-color: yellow;}
 td{border:  2px dashed #FF3488;}
+
+.buttonclass{
+ background-color: yellow;
+ color: white;
+ font-family: 'Arial';
+}

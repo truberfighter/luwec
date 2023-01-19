@@ -2,7 +2,7 @@
 <html>
  <head>
  
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 
 
  
@@ -18,8 +18,18 @@
 
 <div onMouseMove = "var x = event.clientX; var y =event.clientY;
 showRightImage(0,100,300,500,document.imageForTheWin,event);return true;">
+<script type="text/javascript" >
+$(document).ready(function(){
+$("#thebutton").click(function(){
+alert("The computer wants to make pointless and unfair terror");
+    alert($(".buttonclass").css("background-color"));
+    $("#thebutton").css("background-color","#ffffff");
+    $(".buttonclass").css("font-family","Times New Roman");
+});
+});
+</script>
 
-<script>
+<script type="text/javascript">
 function showRightImage( xLowBound, xUpBound, yLowBound, yUpBound,  what, event){
 var x = event.clientX; var y = event.clientY;
     if((x>=xLowBound&&x<=xUpBound&&y>=yLowBound&&y<=yUpBound)){
@@ -50,6 +60,8 @@ Hauptbereich<br>
 
 <img src = "frak-A.jpg" alt = "Piep piep piieep, ich hab euch lieb!" height = 200 width = 100 name = "imageForTheWin" >
 </div>
+<button  id="thebutton" class="buttonclass"> Erscheinungsbild ändern
+</button>
 
 </body>
 </html>
